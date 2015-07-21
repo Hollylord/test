@@ -14,6 +14,7 @@
 		A149899F1B564DEA006226BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A149899E1B564DEA006226BC /* Images.xcassets */; };
 		A14989A21B564DEA006226BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14989A01B564DEA006226BC /* LaunchScreen.xib */; };
 		A14989AE1B564DEA006226BC /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14989AD1B564DEA006226BC /* testTests.m */; };
+		A14989B91B564E7B006226BC /* pictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14989B81B564E7B006226BC /* pictureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A14989A71B564DEA006226BC /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14989AC1B564DEA006226BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14989AD1B564DEA006226BC /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		A14989B71B564E7B006226BC /* pictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pictureView.h; sourceTree = "<group>"; };
+		A14989B81B564E7B006226BC /* pictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pictureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				A14989981B564DEA006226BC /* ViewController.h */,
 				A14989991B564DEA006226BC /* ViewController.m */,
 				A149899B1B564DEA006226BC /* Main.storyboard */,
+				A14989B71B564E7B006226BC /* pictureView.h */,
+				A14989B81B564E7B006226BC /* pictureView.m */,
 				A149899E1B564DEA006226BC /* Images.xcassets */,
 				A14989A01B564DEA006226BC /* LaunchScreen.xib */,
 				A14989911B564DEA006226BC /* Supporting Files */,
@@ -222,6 +227,7 @@
 				A149899A1B564DEA006226BC /* ViewController.m in Sources */,
 				A14989971B564DEA006226BC /* AppDelegate.m in Sources */,
 				A14989941B564DEA006226BC /* main.m in Sources */,
+				A14989B91B564E7B006226BC /* pictureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
