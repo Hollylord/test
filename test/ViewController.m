@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "pictureView.h"
+#import "UMSocial.h"
 
 @interface ViewController () <UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet pictureView *pictureView;
@@ -20,6 +21,15 @@
     [super viewDidLoad];
     
     self.pictureView.scrollView.delegate = self;
+    
+    [UMSocialSnsService presentSnsIconSheetView:self
+                                         appKey:nil
+                                      shareText:@"你要分享的文字"
+                                     shareImage:nil
+                                shareToSnsNames:[NSArray arrayWithObjects:UMShareToSina,UMShareToTencent,UMShareToRenren,nil]
+                                       delegate:nil];
+    
+    
 
 }
 
